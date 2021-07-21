@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.first h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.first p{
+    font-size: 20px;
+    justify-content: right;
+}
+.ROW{
+    padding-left: 100px;
+}
+i{
+    height: 50px;
+    width: 50px;
+}
+.btn1{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+.btn1:hover{
+    background-color: blueviolet;
+}
+body{
+    background-color: whitesmoke;
+}
+.btn2:hover{
+    background-color: grey;
+    color: black;
+}
+.btn3:hover{
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.card:hover{
+    transform: scale(0.9);
+    background-color: linen;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#project{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+#pricing{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.card2{
+    background-color: lightslategray;
+    opacity: 6;
+}
+.card3{
+    height: 300px;
+    width: 300px;
+    border: 3px solid gold;
+    border-radius: 40px;
+}
+.card3:hover{
+    transform: scale(0.9);
+    background-color: grey;
+}
+.img-circle{
+    height: 180px;
+    width: 180px;
+}
+#team{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	
+	background: #fff;
+	min-height: 100vh;
+	
+	background-repeat: no-repeat;
+}
+img{
+	max-width: 100%;
+}
+.container1{
+	padding: 40px 0;
+    background-color:lightsteelblue;
+}
+figure{
+	max-width: 800px;
+	margin: 0 auto 40px;
+	border:2px solid #fff;
+}
+figure img{
+	max-width: 100%;
+	min-width: 100%;
+	display: block;
+}
+.viewer{
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+.viewer li{
+	margin: 0 5px;
+	display: inline-block;
+	width: 100px;
+	border:1px solid #fff;
+	cursor: pointer;
+}
+ul li img{
+	display: block;
+    border: 3px solid black;
+   
+}
+#life{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+ #matter{
+     height: 300px;
+     width: 100%;
+     background-image: url("https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+     background-attachment: fixed;
+ }
+ #con1{
+     color: whitesmoke;
+     text-align: center;
+     padding-top: 30px;
+     font-size: 40px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .control{
+     padding: 60px;
+ }
+ label{
+     color:whitesmoke;
+     font-size: 40px;
+     opacity: 9;
+ }
+ .card4:hover{
+     transform: scale(0.9);
+     background-color: whitesmoke;
+
+ }
+
+ .contact label{
+     color: black;
+     font-size: 20px;
+     
+ }
